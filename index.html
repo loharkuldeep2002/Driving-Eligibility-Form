@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Driving Elgibility </title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href='2.png' type="image/x-icon">
+    </head>
+    <body>
+        <div
+            class="container h-[25rem] flex justify-center content-center  items-center m-16    ">
+            <div
+                class="form  text-center bg-gray-50 px-32 py-24 rounded-md drop-shadow-xl">
+                <h1 class="text-4xl font-thin p-10">Driving Elgibility Form</h1>
+                <div class="text-lg font-math">
+                    <form action=" ">
+                        <label>Driving License Number:</label><br>
+                        <input
+                            class="w-60 p-1 my-2 rounded-md  hover:border-[1.5px] border-gray-500 text-center"
+                            type="text" id="licenseNumber">
+                        <br>
+                        <button
+                            class="submit-button font-math my-2 px-14 p-1 hover:bg-white  hover:text-blue-600 hover:rounded-md border hover:border-blue-600 border-gray-600"
+                            onclick="checkEligibility(event)">Check-Eligibility</button>
+                    </form>
+
+                    <div class="result" id="result"></div>
+
+                </div>
+                <p id="done "></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
