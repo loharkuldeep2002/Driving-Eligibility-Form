@@ -1,4 +1,6 @@
 # Driving Eligibility Form
+![image](https://github.com/user-attachments/assets/1409d16c-b885-4532-b66e-d8db35d8ee50)
+
 
 This project is a simple web application that determines if a person is eligible to drive based on their age. It is built using HTML, CSS, Tailwind CSS, and JavaScript to provide a clean and user-friendly interface.
 
